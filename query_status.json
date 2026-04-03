@@ -1,0 +1,1 @@
+{ "query": "SELECT DISTINCT(Status) as statuses , count(Status) as qty FROM \"ecommerce-demo\" group by 1 order by 2 desc" }
